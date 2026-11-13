@@ -1,0 +1,23 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python environment
+venv/
+rag/
+__pycache__/
+*.pyc
+
+# FAISS generated index
+vectorstore/faiss_index/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+**/.env
+**/.env.*
